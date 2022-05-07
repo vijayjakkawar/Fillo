@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="E:/vijay/TestNG_Demo">
+        <classes>
+            <class name="packA.fourTest">
+                <methods>
+                    <include name="m7"/>
+                    <include name="m8"/>
+                </methods>
+            </class>
+            <class name="packA.oneTest">
+                <methods>
+                    <include name="m1"/>
+                </methods>
+            </class>
+            <class name="packA.threeTest">
+                <methods>
+                    <include name="m5"/>
+                    <include name="m6"/>
+                </methods>
+            </class>
+            <class name="packA.twoTest">
+                <methods>
+                    <include name="m3"/>
+                    <include name="m4"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
